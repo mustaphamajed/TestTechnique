@@ -40,15 +40,15 @@ export default class FavorisScreen extends Component {
         </View>
         <View>
         <TouchableHighlight
-  style={styles.submit}
-  underlayColor='#fff'>
-    <Text style={styles.submitText1} >Prendre un cours avec Teach'r</Text>
-</TouchableHighlight>
+             style={styles.submit}
+             underlayColor='#fff'>
+             <Text style={styles.submitText1} >Prendre un cours avec Teach'r</Text>
+        </TouchableHighlight>
          <TouchableHighlight
-  style={styles.submit1}
-  underlayColor='#fff'>
-    <Text style={styles.submitText}>Retire ce Teach'r de mes favoris</Text>
-</TouchableHighlight>
+            style={styles.submit1}
+             underlayColor='#fff'>
+         <Text style={styles.submitText}>Retire ce Teach'r de mes favoris</Text>
+        </TouchableHighlight>
         
         </View>
                 
